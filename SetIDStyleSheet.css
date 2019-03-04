@@ -1,0 +1,29 @@
+
+QLineEdit
+{
+    padding-top:0px; 
+    padding-bottom:0px;
+    padding-left:50px;
+    height: 80px;
+    width: 200px;
+    cursor:pointer;
+    font: bold 16px red;
+    background:yellow;
+    color:red;
+}
+
+QPushButton
+{
+    height: 30px;
+    width: 30px;
+}
+
+QPushButton#pushButton_accept
+{
+    border-image:url("yes.png");
+}
+
+QPushButton#pushButton_cancel
+{
+    border-image:url("no.png");
+}
